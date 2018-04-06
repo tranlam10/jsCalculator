@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+  <h1>Simple Calculator</h1>
+  <div id='calc'>
+    <form>
+      <input type='text' id='display'>
+      <br>
+      <button type="button" class="btn btn-light keys" onclick='show("c")'>C</button>
+      <button type="button" class="btn btn-light keys" onclick='backspace()'>CE</button>
+      <button type="button" class="btn btn-light keys" onclick='squared()'>x^2</button>
+      <button type="button" class="btn btn-light keys" onclick='show("/")'>/</button>
+      <br>
+      <button type="button" class="btn btn-light keys" onclick='show("7")'>7</button>
+      <button type="button" class="btn btn-light keys" onclick='show("8")'>8</button>
+      <button type="button" class="btn btn-light keys" onclick='show("9")'>9</button>
+      <button type="button" class="btn btn-light keys" onclick='show("*")'>X</button>
+      <br>
+      <button type="button" class="btn btn-light keys" onclick='show("4")'>4</button>
+      <button type="button" class="btn btn-light keys" onclick='show("5")'>5</button>
+      <button type="button" class="btn btn-light keys" onclick='show("6")'>6</button>
+      <button type="button" class="btn btn-light keys" onclick='show("-")'>-</button>
+      <br>
+      <button type="button" class="btn btn-light keys" onclick='show("1")'>1</button>
+      <button type="button" class="btn btn-light keys" onclick='show("2")'>2</button>
+      <button type="button" class="btn btn-light keys" onclick='show("3")'>3</button>
+      <button type="button" class="btn btn-light keys" onclick='show("+")'>+</button>
+      <br>
+      <button type="button" class="btn btn-light keys" onclick='show("0")'>0</button>
+      <button type="button" class="btn btn-light keys" onclick='show(".")'>.</button>
+      <button type="button" class="btn btn-light equal" onclick='equal()'>=</button>
+    </form>
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
